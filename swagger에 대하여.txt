@@ -1,0 +1,13 @@
+1. 루트 디렉토리에 public이라는 디렉토리를 생성 후에 아래 주소로 들어가서
+ dist라는 디렉토리를 받아와 https://github.com/swagger-api/swagger-ui
+ 우리의 public 디렉토리에 넣어준다.
+2. dist -> docs 로 이름 변경 (보통 이렇게들 쓴다고 한다)
+
+3. docs/index.html 에서 url을 다음과 같이 변경한다.
+url: "http://localhost:3000/swagger.yaml"
+
+4. public/swagger.yaml 파일을 만들어준 뒤에 API들에 대한 명세를 
+형식에 맞게 들여쓰기에 주의하여 작성하면 된다.
+
+5. public 디렉토리는 외부에서 누구나 접근할 수 있기 때문에
+http://localhost:3000/docs 로 들어가면 작성한 API명세를 확인할 수 있다.

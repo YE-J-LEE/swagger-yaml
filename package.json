@@ -1,0 +1,10 @@
+{
+  "name": "swagger-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "yamljs": "^0.3.0"
+  }
+}
